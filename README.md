@@ -1,4 +1,7 @@
 Click here to visit : [link](https://archit-mavenai-dashboard.netlify.app/)
+tech stack used :
+- React (React, React-router)
+- Bootstrap
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
