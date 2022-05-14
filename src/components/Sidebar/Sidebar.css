@@ -1,0 +1,18 @@
+.sidebar {
+  background-color: #ffffff;
+}
+/* show sidebar toggle button for screen width less than 1023px  */
+@media screen and (max-width: 1023px) {
+  .sidebarBtn {
+    left: 0;
+    top: 50%;
+    z-index: 10;
+  }
+}
+
+/* hidding sidebar toggle button for screen width greate than 1023px  */
+@media screen and (min-width: 1023px) {
+  .sidebarBtn {
+    display: none;
+  }
+}

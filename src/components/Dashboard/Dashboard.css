@@ -1,0 +1,125 @@
+.dashboard {
+  width: 100%;
+}
+/* db -> dashboard  */
+/* ds -> data section1  */
+
+/* db-header  */
+@media screen and (min-width: 1025px) {
+  .dashboard {
+    margin-left: 9rem;
+    padding-left: 5vw !important;
+  }
+}
+.db-name {
+  font-size: 2.5rem;
+}
+.welcome-text {
+  color: #8990ad;
+}
+.db-header {
+  align-content: space-between;
+}
+.db-btn-user button {
+  background-color: #00e38c;
+  border: 0;
+  padding: 0.5rem 0.6rem;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 950px) {
+  .db-name {
+    font-size: 30px;
+  }
+  span.mx-3 {
+    display: none;
+  }
+}
+/* -----------  */
+
+/* dashboard : data section  */
+.db-ds {
+  color: #8990ad;
+  font-size: 20px;
+}
+
+/*db : data section-1  */
+.db-ds1 {
+  letter-spacing: 3px;
+}
+.currencies-data span img {
+  width: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+  .db-ds1 div {
+    border-style: hidden !important;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+div.data {
+  color: black;
+  font-size: 1.5rem;
+  letter-spacing: 0px;
+}
+.currencies-data span {
+  margin-top: auto;
+  margin-bottom: auto;
+  background: #00000029;
+  border-radius: 50%;
+  padding: 0px 15px;
+  margin: 5px;
+}
+
+/* db : data section-2   */
+
+.db-ds2 ul {
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+li {
+  text-align: center;
+}
+
+/* db : data section -3-4  */
+.db-ds34 {
+  justify-content: space-between;
+}
+.db-ds34-header {
+  justify-content: space-between;
+}
+.userInfo {
+  justify-content: space-between;
+}
+.team-body ul li {
+  padding: 20px;
+  box-shadow: 0px 3px 26px #00000017;
+}
+.greenPos {
+  background-color: rgb(229, 252, 243);
+}
+.greenPos span {
+  color: #00e38c;
+}
+.bluePos {
+  background-color: rgb(236, 242, 254);
+}
+.bluePos span {
+  color: #2464fc;
+}
+.progress-bar {
+  background-color: #00e38c;
+}
+.progress-value {
+  color: #8990ad;
+}
+div.userPosition {
+  border-radius: 25px;
+}
+@media screen and (max-width: 600px) {
+  div.basicInfo img {
+    display: none;
+  }
+}
